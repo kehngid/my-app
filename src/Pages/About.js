@@ -1,3 +1,6 @@
-function AboutPage() {
-    
+function About()
+{
+
 }
+
+export default About;
