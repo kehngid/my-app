@@ -1,4 +1,4 @@
-import ProfilePic from src/Components/ProfilePic.js
+import ProfilePic from ProfilePic.js
 
 function About()
 {
