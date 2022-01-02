@@ -5,7 +5,7 @@ import ProfilePic from './Components/ProfilePic.js'
 	
 function App() 
 {
-	 return (
+	return (
 	  <div className="App">
 	    <ProfilePic />
 	  </div>
