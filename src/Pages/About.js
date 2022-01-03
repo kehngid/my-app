@@ -1,6 +1,9 @@
+import React from 'react';
+import '../Stylesheets/Home.css';
+
 function About()
 {
-    <h1>"About Page"</h1>
+    return "About page";
 }
 
 export default About;

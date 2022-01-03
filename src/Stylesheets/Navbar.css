@@ -1,4 +1,11 @@
 .button 
 {
-    background-color: #FFBD59
+    background-color: #FFBD59;
+    font-size: 34px;
+    font-family: "Verdana";
 };
+
+.button2
+{
+    background-color: black;
+}
