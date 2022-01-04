@@ -1,9 +1,13 @@
 import React from 'react';
 import '../Stylesheets/Home.css';
 
-function About()
+function About() 
 {
-    return "About page";
-}
+  return (
+    <div className="title">
+      <h1>About page</h1>
+    </div>
+  );
+};
 
 export default About;

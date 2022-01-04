@@ -1,16 +1,23 @@
 import React from 'react';
-import { Button } from 'reactstrap';
+import { Nav, NavItem, NavLink } from 'reactstrap';
 import'../Stylesheets/Navbar.css';
 
-export default class Navbar extends React.Component {
+export default class Example extends React.Component {
   render() {
     return (
       <div>
-        <Button className="button">Home</Button>{' '}
-        <Button className="button">Projects</Button>{' '}
-        <Button className="button">About</Button>
+        <Nav>
+          <NavItem>
+            <NavLink href="../Pages/Home.js">Home</NavLink>
+          </NavItem>
+          <NavItem>
+            <NavLink href="../Pages/Projects.js">Projects</NavLink>
+          </NavItem>
+          <NavItem>
+            <NavLink href="../Pages/About.js">About</NavLink>
+          </NavItem>
+        </Nav>
       </div>
     );
   }
 }
-
