@@ -6,15 +6,15 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 export default class Example extends React.Component {
   render() {
     return (
-      <div>
+      <div className="navbar">
         <Nav pills>
-          <NavItem>
-            <NavLink href="/home">Home</NavLink>
+          <NavItem className="navtab">
+            <NavLink href="/" >Home</NavLink>
           </NavItem>
-          <NavItem>
+          <NavItem className="navtab">
             <NavLink href="/projects">Projects</NavLink>
           </NavItem>
-          <NavItem>
+          <NavItem className="navtab">
             <NavLink href="/about">About</NavLink>
           </NavItem>
         </Nav>

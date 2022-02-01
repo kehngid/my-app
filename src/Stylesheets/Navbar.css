@@ -1,11 +1,18 @@
-.NavTabs 
+.navtab 
 {
     background-color: #FFBD59;
     font-size: 34px;
     font-family: "Verdana";
+    border-radius: 15px 15px 0px 0px;
 };
 
-.button2
+.navlink
 {
-    background-color: black;
-}
+    color: black;
+};
+
+.navbar
+{
+    background-color: #03989E;
+    min-height: 100px;
+};

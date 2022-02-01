@@ -1,5 +1,6 @@
 import React from 'react';
 import '../Stylesheets/Home.css';
+import '../Stylesheets/Pages.css';
 
 function About() 
 {
