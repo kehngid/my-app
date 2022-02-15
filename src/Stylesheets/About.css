@@ -36,3 +36,47 @@
     float: left;
     width: 66.66%;
 }
+
+@media only screen and (max-width: 992px)
+{
+
+}
+
+@media only screen and (max-width: 600px)
+{
+    .column1
+    {
+        text-align: center;
+        width: 100%;
+    }
+
+    .column2 {
+        text-align: center;
+        width: 100%;
+    }
+
+    .name {
+        font-size: 40px;
+        text-align: center;
+        font-family: "Open Sans Light", sans-serif;
+    }
+    
+    .links {
+        font-size: 40px;
+        text-align: center;
+        font-family: "Open Sans Light", sans-serif
+    }
+    
+    .title {
+        font-size: 21px;
+        text-align: center;
+        font-family: "Open Sans Light", sans-serif;
+    
+    }
+    
+    .paragraph {
+        font-size: 20px;
+        text-align: center;
+        font-family: "Open Sans Light", sans-serif;
+    }
+}

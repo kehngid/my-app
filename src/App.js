@@ -5,7 +5,6 @@ import Projects from './Pages/Projects';
 import About from './Pages/About';
 import { Route, Routes, BrowserRouter as Router } from "react-router-dom";
 
-
 function App() {
   return (
     <Router>

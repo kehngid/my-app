@@ -1,12 +1,14 @@
 import React from 'react';
 import '../Stylesheets/Home.css';
-import '../Stylesheets/Pages.css';
+import '../Stylesheets/Responsive.css';
 
 function Home() 
 {
   return (
     <div>
-        <h1 className="title">Home page</h1>
+      <body>
+        <h1 className="text">Home page</h1>
+      </body>
     </div>
   );
 }
