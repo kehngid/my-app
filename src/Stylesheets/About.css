@@ -8,8 +8,14 @@
 .links {
     font-size: 19px;
     text-align: left;
-    line-height: 1.4;
-    font-family: "Open Sans Light", sans-serif
+    font-family: "Open Sans Light", sans-serif;
+    color: black;
+}
+
+a {
+    color: black;
+    font-size: 30px;
+    text-decoration: none;
 }
 
 .title {
@@ -30,19 +36,29 @@
 .column1 {
     float: left;
     width: 33.33%;
+    text-align: center;
 }
 
 .column2 {
     float: left;
     width: 66.66%;
+    text-align: center;
 }
 
 @media only screen and (max-width: 992px)
 {
+    .column1
+    {
+        text-align: center;
+        width: 40%;
+    }
 
+    .column2 {
+        width: 60%;
+    }
 }
 
-@media only screen and (max-width: 600px)
+@media only screen and (max-width: 800px)
 {
     .column1
     {
@@ -62,7 +78,7 @@
     }
     
     .links {
-        font-size: 40px;
+        font-size: 21px;
         text-align: center;
         font-family: "Open Sans Light", sans-serif
     }
